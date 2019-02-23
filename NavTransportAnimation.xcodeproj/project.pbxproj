@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		908B9AA222211E6D00B1E4DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AA122211E6D00B1E4DB /* AppDelegate.m */; };
+		908B9AA522211E6D00B1E4DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AA422211E6D00B1E4DB /* ViewController.m */; };
+		908B9AA822211E6D00B1E4DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908B9AA622211E6D00B1E4DB /* Main.storyboard */; };
+		908B9AAA22211E6E00B1E4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908B9AA922211E6E00B1E4DB /* Assets.xcassets */; };
+		908B9AAD22211E6E00B1E4DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908B9AAB22211E6E00B1E4DB /* LaunchScreen.storyboard */; };
+		908B9AB022211E6E00B1E4DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AAF22211E6E00B1E4DB /* main.m */; };
+		908B9ABA22211E6E00B1E4DB /* NavTransportAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AB922211E6E00B1E4DB /* NavTransportAnimationTests.m */; };
+		908B9AC522211E6E00B1E4DB /* NavTransportAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AC422211E6E00B1E4DB /* NavTransportAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		908B9AB622211E6E00B1E4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 908B9A9522211E6D00B1E4DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 908B9A9C22211E6D00B1E4DB;
+			remoteInfo = NavTransportAnimation;
+		};
+		908B9AC122211E6E00B1E4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 908B9A9522211E6D00B1E4DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 908B9A9C22211E6D00B1E4DB;
+			remoteInfo = NavTransportAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		908B9A9D22211E6D00B1E4DB /* NavTransportAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTransportAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		908B9AA022211E6D00B1E4DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		908B9AA122211E6D00B1E4DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		908B9AA322211E6D00B1E4DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		908B9AA422211E6D00B1E4DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		908B9AA722211E6D00B1E4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		908B9AA922211E6E00B1E4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		908B9AAC22211E6E00B1E4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		908B9AAE22211E6E00B1E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908B9AAF22211E6E00B1E4DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		908B9AB522211E6E00B1E4DB /* NavTransportAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavTransportAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		908B9AB922211E6E00B1E4DB /* NavTransportAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTransportAnimationTests.m; sourceTree = "<group>"; };
+		908B9ABB22211E6E00B1E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908B9AC022211E6E00B1E4DB /* NavTransportAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavTransportAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		908B9AC422211E6E00B1E4DB /* NavTransportAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTransportAnimationUITests.m; sourceTree = "<group>"; };
+		908B9AC622211E6E00B1E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		908B9A9A22211E6D00B1E4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908B9AB222211E6E00B1E4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908B9ABD22211E6E00B1E4DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		908B9A9422211E6D00B1E4DB = {
+			isa = PBXGroup;
+			children = (
+				908B9A9F22211E6D00B1E4DB /* NavTransportAnimation */,
+				908B9AB822211E6E00B1E4DB /* NavTransportAnimationTests */,
+				908B9AC322211E6E00B1E4DB /* NavTransportAnimationUITests */,
+				908B9A9E22211E6D00B1E4DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		908B9A9E22211E6D00B1E4DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				908B9A9D22211E6D00B1E4DB /* NavTransportAnimation.app */,
+				908B9AB522211E6E00B1E4DB /* NavTransportAnimationTests.xctest */,
+				908B9AC022211E6E00B1E4DB /* NavTransportAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		908B9A9F22211E6D00B1E4DB /* NavTransportAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				908B9AA022211E6D00B1E4DB /* AppDelegate.h */,
+				908B9AA122211E6D00B1E4DB /* AppDelegate.m */,
+				908B9AA322211E6D00B1E4DB /* ViewController.h */,
+				908B9AA422211E6D00B1E4DB /* ViewController.m */,
+				908B9AA622211E6D00B1E4DB /* Main.storyboard */,
+				908B9AA922211E6E00B1E4DB /* Assets.xcassets */,
+				908B9AAB22211E6E00B1E4DB /* LaunchScreen.storyboard */,
+				908B9AAE22211E6E00B1E4DB /* Info.plist */,
+				908B9AAF22211E6E00B1E4DB /* main.m */,
+			);
+			path = NavTransportAnimation;
+			sourceTree = "<group>";
+		};
+		908B9AB822211E6E00B1E4DB /* NavTransportAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				908B9AB922211E6E00B1E4DB /* NavTransportAnimationTests.m */,
+				908B9ABB22211E6E00B1E4DB /* Info.plist */,
+			);
+			path = NavTransportAnimationTests;
+			sourceTree = "<group>";
+		};
+		908B9AC322211E6E00B1E4DB /* NavTransportAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				908B9AC422211E6E00B1E4DB /* NavTransportAnimationUITests.m */,
+				908B9AC622211E6E00B1E4DB /* Info.plist */,
+			);
+			path = NavTransportAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		908B9A9C22211E6D00B1E4DB /* NavTransportAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908B9AC922211E6E00B1E4DB /* Build configuration list for PBXNativeTarget "NavTransportAnimation" */;
+			buildPhases = (
+				908B9A9922211E6D00B1E4DB /* Sources */,
+				908B9A9A22211E6D00B1E4DB /* Frameworks */,
+				908B9A9B22211E6D00B1E4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavTransportAnimation;
+			productName = NavTransportAnimation;
+			productReference = 908B9A9D22211E6D00B1E4DB /* NavTransportAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		908B9AB422211E6E00B1E4DB /* NavTransportAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908B9ACC22211E6E00B1E4DB /* Build configuration list for PBXNativeTarget "NavTransportAnimationTests" */;
+			buildPhases = (
+				908B9AB122211E6E00B1E4DB /* Sources */,
+				908B9AB222211E6E00B1E4DB /* Frameworks */,
+				908B9AB322211E6E00B1E4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				908B9AB722211E6E00B1E4DB /* PBXTargetDependency */,
+			);
+			name = NavTransportAnimationTests;
+			productName = NavTransportAnimationTests;
+			productReference = 908B9AB522211E6E00B1E4DB /* NavTransportAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		908B9ABF22211E6E00B1E4DB /* NavTransportAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908B9ACF22211E6E00B1E4DB /* Build configuration list for PBXNativeTarget "NavTransportAnimationUITests" */;
+			buildPhases = (
+				908B9ABC22211E6E00B1E4DB /* Sources */,
+				908B9ABD22211E6E00B1E4DB /* Frameworks */,
+				908B9ABE22211E6E00B1E4DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				908B9AC222211E6E00B1E4DB /* PBXTargetDependency */,
+			);
+			name = NavTransportAnimationUITests;
+			productName = NavTransportAnimationUITests;
+			productReference = 908B9AC022211E6E00B1E4DB /* NavTransportAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		908B9A9522211E6D00B1E4DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "智取";
+				TargetAttributes = {
+					908B9A9C22211E6D00B1E4DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					908B9AB422211E6E00B1E4DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 908B9A9C22211E6D00B1E4DB;
+					};
+					908B9ABF22211E6E00B1E4DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 908B9A9C22211E6D00B1E4DB;
+					};
+				};
+			};
+			buildConfigurationList = 908B9A9822211E6D00B1E4DB /* Build configuration list for PBXProject "NavTransportAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 908B9A9422211E6D00B1E4DB;
+			productRefGroup = 908B9A9E22211E6D00B1E4DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				908B9A9C22211E6D00B1E4DB /* NavTransportAnimation */,
+				908B9AB422211E6E00B1E4DB /* NavTransportAnimationTests */,
+				908B9ABF22211E6E00B1E4DB /* NavTransportAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		908B9A9B22211E6D00B1E4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908B9AAD22211E6E00B1E4DB /* LaunchScreen.storyboard in Resources */,
+				908B9AAA22211E6E00B1E4DB /* Assets.xcassets in Resources */,
+				908B9AA822211E6D00B1E4DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908B9AB322211E6E00B1E4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908B9ABE22211E6E00B1E4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		908B9A9922211E6D00B1E4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908B9AA522211E6D00B1E4DB /* ViewController.m in Sources */,
+				908B9AB022211E6E00B1E4DB /* main.m in Sources */,
+				908B9AA222211E6D00B1E4DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908B9AB122211E6E00B1E4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908B9ABA22211E6E00B1E4DB /* NavTransportAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908B9ABC22211E6E00B1E4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908B9AC522211E6E00B1E4DB /* NavTransportAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		908B9AB722211E6E00B1E4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 908B9A9C22211E6D00B1E4DB /* NavTransportAnimation */;
+			targetProxy = 908B9AB622211E6E00B1E4DB /* PBXContainerItemProxy */;
+		};
+		908B9AC222211E6E00B1E4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 908B9A9C22211E6D00B1E4DB /* NavTransportAnimation */;
+			targetProxy = 908B9AC122211E6E00B1E4DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		908B9AA622211E6D00B1E4DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908B9AA722211E6D00B1E4DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		908B9AAB22211E6E00B1E4DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908B9AAC22211E6E00B1E4DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		908B9AC722211E6E00B1E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		908B9AC822211E6E00B1E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		908B9ACA22211E6E00B1E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavTransportAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiqu.NavTransportAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		908B9ACB22211E6E00B1E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavTransportAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiqu.NavTransportAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		908B9ACD22211E6E00B1E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavTransportAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiqu.NavTransportAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavTransportAnimation.app/NavTransportAnimation";
+			};
+			name = Debug;
+		};
+		908B9ACE22211E6E00B1E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavTransportAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiqu.NavTransportAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavTransportAnimation.app/NavTransportAnimation";
+			};
+			name = Release;
+		};
+		908B9AD022211E6E00B1E4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavTransportAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiqu.NavTransportAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavTransportAnimation;
+			};
+			name = Debug;
+		};
+		908B9AD122211E6E00B1E4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavTransportAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhiqu.NavTransportAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavTransportAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		908B9A9822211E6D00B1E4DB /* Build configuration list for PBXProject "NavTransportAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908B9AC722211E6E00B1E4DB /* Debug */,
+				908B9AC822211E6E00B1E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908B9AC922211E6E00B1E4DB /* Build configuration list for PBXNativeTarget "NavTransportAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908B9ACA22211E6E00B1E4DB /* Debug */,
+				908B9ACB22211E6E00B1E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908B9ACC22211E6E00B1E4DB /* Build configuration list for PBXNativeTarget "NavTransportAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908B9ACD22211E6E00B1E4DB /* Debug */,
+				908B9ACE22211E6E00B1E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908B9ACF22211E6E00B1E4DB /* Build configuration list for PBXNativeTarget "NavTransportAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908B9AD022211E6E00B1E4DB /* Debug */,
+				908B9AD122211E6E00B1E4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 908B9A9522211E6D00B1E4DB /* Project object */;
+}
