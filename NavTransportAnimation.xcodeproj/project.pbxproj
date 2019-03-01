@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9027515122262D40001FE73B /* UIViewController+SnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9027515022262D40001FE73B /* UIViewController+SnapShot.m */; };
+		9027515422267668001FE73B /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9027515322267668001FE73B /* NextViewController.m */; };
+		9027515B22268B39001FE73B /* TransitionImgNavigationPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9027515A22268B39001FE73B /* TransitionImgNavigationPerformer.m */; };
+		9027515E22268F53001FE73B /* TransitionImgAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9027515D22268F53001FE73B /* TransitionImgAnimation.m */; };
+		90290B9F22292BAF003BEB35 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90290B9922292BAE003BEB35 /* PopAnimation.m */; };
+		90290BA022292BAF003BEB35 /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90290B9B22292BAF003BEB35 /* PushAnimation.m */; };
+		90290BA122292BAF003BEB35 /* NavigationPerfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90290B9D22292BAF003BEB35 /* NavigationPerfomer.m */; };
 		908B9AA222211E6D00B1E4DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AA122211E6D00B1E4DB /* AppDelegate.m */; };
 		908B9AA522211E6D00B1E4DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AA422211E6D00B1E4DB /* ViewController.m */; };
 		908B9AA822211E6D00B1E4DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908B9AA622211E6D00B1E4DB /* Main.storyboard */; };
@@ -15,6 +22,10 @@
 		908B9AB022211E6E00B1E4DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AAF22211E6E00B1E4DB /* main.m */; };
 		908B9ABA22211E6E00B1E4DB /* NavTransportAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AB922211E6E00B1E4DB /* NavTransportAnimationTests.m */; };
 		908B9AC522211E6E00B1E4DB /* NavTransportAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AC422211E6E00B1E4DB /* NavTransportAnimationUITests.m */; };
+		908B9AD422211F0C00B1E4DB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AD322211F0C00B1E4DB /* BaseViewController.m */; };
+		908B9ADC22214B2300B1E4DB /* TransitionPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9ADB22214B2300B1E4DB /* TransitionPushAnimation.m */; };
+		908B9ADF2221510100B1E4DB /* TransitionNavigationPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9ADE2221510100B1E4DB /* TransitionNavigationPerformer.m */; };
+		908B9AE22221560E00B1E4DB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908B9AE12221560E00B1E4DB /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9027514F22262D40001FE73B /* UIViewController+SnapShot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SnapShot.h"; sourceTree = "<group>"; };
+		9027515022262D40001FE73B /* UIViewController+SnapShot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SnapShot.m"; sourceTree = "<group>"; };
+		9027515222267668001FE73B /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		9027515322267668001FE73B /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		9027515922268B39001FE73B /* TransitionImgNavigationPerformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionImgNavigationPerformer.h; sourceTree = "<group>"; };
+		9027515A22268B39001FE73B /* TransitionImgNavigationPerformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionImgNavigationPerformer.m; sourceTree = "<group>"; };
+		9027515C22268F53001FE73B /* TransitionImgAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionImgAnimation.h; sourceTree = "<group>"; };
+		9027515D22268F53001FE73B /* TransitionImgAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionImgAnimation.m; sourceTree = "<group>"; };
+		90290B9922292BAE003BEB35 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		90290B9A22292BAE003BEB35 /* PushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
+		90290B9B22292BAF003BEB35 /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
+		90290B9C22292BAF003BEB35 /* NavigationPerfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationPerfomer.h; sourceTree = "<group>"; };
+		90290B9D22292BAF003BEB35 /* NavigationPerfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationPerfomer.m; sourceTree = "<group>"; };
+		90290B9E22292BAF003BEB35 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
 		908B9A9D22211E6D00B1E4DB /* NavTransportAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTransportAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		908B9AA022211E6D00B1E4DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		908B9AA122211E6D00B1E4DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +76,14 @@
 		908B9AC022211E6E00B1E4DB /* NavTransportAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavTransportAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		908B9AC422211E6E00B1E4DB /* NavTransportAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTransportAnimationUITests.m; sourceTree = "<group>"; };
 		908B9AC622211E6E00B1E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908B9AD222211F0C00B1E4DB /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		908B9AD322211F0C00B1E4DB /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		908B9ADA22214B2300B1E4DB /* TransitionPushAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionPushAnimation.h; sourceTree = "<group>"; };
+		908B9ADB22214B2300B1E4DB /* TransitionPushAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionPushAnimation.m; sourceTree = "<group>"; };
+		908B9ADD2221510100B1E4DB /* TransitionNavigationPerformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionNavigationPerformer.h; sourceTree = "<group>"; };
+		908B9ADE2221510100B1E4DB /* TransitionNavigationPerformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionNavigationPerformer.m; sourceTree = "<group>"; };
+		908B9AE02221560E00B1E4DB /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		908B9AE12221560E00B1E4DB /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +111,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9027515822268B15001FE73B /* Animation1 */ = {
+			isa = PBXGroup;
+			children = (
+				9027515922268B39001FE73B /* TransitionImgNavigationPerformer.h */,
+				9027515A22268B39001FE73B /* TransitionImgNavigationPerformer.m */,
+				9027515C22268F53001FE73B /* TransitionImgAnimation.h */,
+				9027515D22268F53001FE73B /* TransitionImgAnimation.m */,
+			);
+			path = Animation1;
+			sourceTree = "<group>";
+		};
+		90290B9822292BA1003BEB35 /* Animation2 */ = {
+			isa = PBXGroup;
+			children = (
+				90290B9C22292BAF003BEB35 /* NavigationPerfomer.h */,
+				90290B9D22292BAF003BEB35 /* NavigationPerfomer.m */,
+				90290B9A22292BAE003BEB35 /* PushAnimation.h */,
+				90290B9B22292BAF003BEB35 /* PushAnimation.m */,
+				90290B9E22292BAF003BEB35 /* PopAnimation.h */,
+				90290B9922292BAE003BEB35 /* PopAnimation.m */,
+			);
+			path = Animation2;
+			sourceTree = "<group>";
+		};
 		908B9A9422211E6D00B1E4DB = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +158,20 @@
 		908B9A9F22211E6D00B1E4DB /* NavTransportAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				90290B9822292BA1003BEB35 /* Animation2 */,
+				9027515822268B15001FE73B /* Animation1 */,
+				908B9AD922214B0B00B1E4DB /* Animation */,
+				908B9AD522211F1A00B1E4DB /* Base */,
 				908B9AA022211E6D00B1E4DB /* AppDelegate.h */,
 				908B9AA122211E6D00B1E4DB /* AppDelegate.m */,
 				908B9AA322211E6D00B1E4DB /* ViewController.h */,
 				908B9AA422211E6D00B1E4DB /* ViewController.m */,
+				908B9AE02221560E00B1E4DB /* FirstViewController.h */,
+				908B9AE12221560E00B1E4DB /* FirstViewController.m */,
+				9027515222267668001FE73B /* NextViewController.h */,
+				9027515322267668001FE73B /* NextViewController.m */,
+				9027514F22262D40001FE73B /* UIViewController+SnapShot.h */,
+				9027515022262D40001FE73B /* UIViewController+SnapShot.m */,
 				908B9AA622211E6D00B1E4DB /* Main.storyboard */,
 				908B9AA922211E6E00B1E4DB /* Assets.xcassets */,
 				908B9AAB22211E6E00B1E4DB /* LaunchScreen.storyboard */,
@@ -130,6 +197,26 @@
 				908B9AC622211E6E00B1E4DB /* Info.plist */,
 			);
 			path = NavTransportAnimationUITests;
+			sourceTree = "<group>";
+		};
+		908B9AD522211F1A00B1E4DB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				908B9AD222211F0C00B1E4DB /* BaseViewController.h */,
+				908B9AD322211F0C00B1E4DB /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		908B9AD922214B0B00B1E4DB /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				908B9ADA22214B2300B1E4DB /* TransitionPushAnimation.h */,
+				908B9ADB22214B2300B1E4DB /* TransitionPushAnimation.m */,
+				908B9ADD2221510100B1E4DB /* TransitionNavigationPerformer.h */,
+				908B9ADE2221510100B1E4DB /* TransitionNavigationPerformer.m */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +349,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908B9ADC22214B2300B1E4DB /* TransitionPushAnimation.m in Sources */,
+				9027515422267668001FE73B /* NextViewController.m in Sources */,
+				908B9ADF2221510100B1E4DB /* TransitionNavigationPerformer.m in Sources */,
+				9027515E22268F53001FE73B /* TransitionImgAnimation.m in Sources */,
+				90290BA022292BAF003BEB35 /* PushAnimation.m in Sources */,
+				908B9AE22221560E00B1E4DB /* FirstViewController.m in Sources */,
 				908B9AA522211E6D00B1E4DB /* ViewController.m in Sources */,
+				908B9AD422211F0C00B1E4DB /* BaseViewController.m in Sources */,
 				908B9AB022211E6E00B1E4DB /* main.m in Sources */,
+				90290BA122292BAF003BEB35 /* NavigationPerfomer.m in Sources */,
+				90290B9F22292BAF003BEB35 /* PopAnimation.m in Sources */,
+				9027515B22268B39001FE73B /* TransitionImgNavigationPerformer.m in Sources */,
+				9027515122262D40001FE73B /* UIViewController+SnapShot.m in Sources */,
 				908B9AA222211E6D00B1E4DB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5Q56VUMPG;
 				INFOPLIST_FILE = NavTransportAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5Q56VUMPG;
 				INFOPLIST_FILE = NavTransportAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

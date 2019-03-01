@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstViewController.h
 //  NavTransportAnimation
 //
 //  Created by 智取 on 2019/2/23.
@@ -8,8 +8,10 @@
 
 #import "BaseViewController.h"
 
-@interface ViewController : BaseViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface FirstViewController : BaseViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
